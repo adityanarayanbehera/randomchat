@@ -1,0 +1,48 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.21",
+    "axios": "^1.13.0",
+    "browser-image-compression": "^2.0.2",
+    "country-state-city": "^3.2.1",
+    "emoji-picker-react": "^4.15.0",
+    "firebase": "^12.4.0",
+    "init": "^0.1.2",
+    "lucide-react": "^0.552.0",
+    "npx": "^10.2.2",
+    "postcss": "^8.5.6",
+    "razorpay": "^2.9.6",
+    "react": "^19.1.1",
+    "react-circular-progressbar": "^2.2.0",
+    "react-dom": "^19.1.1",
+    "react-hot-toast": "^2.6.0",
+    "react-icons": "^5.5.0",
+    "react-image-crop": "^11.0.10",
+    "react-router-dom": "^7.9.4",
+    "socket.io-client": "^4.8.1",
+    "tailwindcss": "^4.1.16",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "autoprefixer": "^10.4.16",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "vite": "^7.1.7"
+  }
+}

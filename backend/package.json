@@ -1,0 +1,38 @@
+{
+  "name": "random-chat-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^10.26.0",
+    "@sentry/tracing": "^7.120.4",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.8.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.2.1",
+    "ioredis": "^5.8.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.19.2",
+    "multer": "^2.0.2",
+    "nanoid": "^5.1.6",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.10",
+    "razorpay": "^2.9.6",
+    "redis": "^5.9.0",
+    "sharp": "^0.34.5",
+    "socket.io": "^4.8.1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
